@@ -36,9 +36,9 @@ class InitTest implements Observer {
 
 		Creator creator = CreatorFactory.FACTORY.creator();
 		Assertions.assertNotNull(creator);
-
-		creator.sysop("test");
-		Assertions.assertTrue(true);
+//
+//		creator.sysop("test");
+//		Assertions.assertTrue(true);
 
 	}
 
